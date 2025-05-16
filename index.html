@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>nakracoachingcentre.com</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      color: #333;
+    }
+    header {
+      background-color: #ff6f61;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      background-color: #ff8566;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1600195077073-44d4d1fca92d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 4rem 1rem;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .section {
+      padding: 1.5rem;
+    }
+    .section h2 {
+      color: #e94e77;
+    }
+    .contact {
+      background-color: #fff3e0;
+      padding: 1.5rem;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+    .footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: 0;
+      border-radius: 10px;
+    }
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      .section {
+        padding: 1rem;
+      }
+    }
+    @media (max-width: 480px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+      .hero h1 {
+        font-size: 1.5rem;
+      }
+      .hero p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nakra Coaching Center</h1>
+    <p>Mastery in Education | Nursery to BA | English Expertise</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="#location">Location</a>
+    <a href="#hours">Hours</a>
+  </nav>
+  <section class="hero">
+    <h1>Welcome to Nakra Coaching Center</h1>
+    <p>Empowering Students from Nursery to Graduation</p>
+  </section>
+  <section class="section" id="about">
+    <h2>What We Teach</h2>
+    <ul>
+      <li>Nursery to 10th – All Subjects</li>
+      <li>+1 & +2 – Non-Medical and Arts (All Subjects)</li>
+      <li>BA – All Subjects</li>
+      <li>Special Focus on English Mastery</li>
+    </ul>
+  </section>
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact">
+      <p><strong>Phone:</strong> 9781120603</p>
+      <p><strong>Address:</strong> Nakra Coaching Center</p>
+    </div>
+  </section>
+  <section class="section" id="location">
+    <h2>Our Location</h2>
+    <iframe src="https://www.google.com/maps?q=Nakra+Coaching+Center&output=embed"></iframe>
+  </section>
+  <section class="section" id="hours">
+    <h2>Opening Hours</h2>
+    <p>Monday to Saturday: <strong>4:00 PM – 7:00 PM</strong></p>
+    <p>Closed on Sundays</p>
+  </section>
+  <footer class="footer">
+    <p>&copy; 2025 nakracoachingcentre.com. All rights reserved.</p>
+  </footer>
+</body>
+</html>
